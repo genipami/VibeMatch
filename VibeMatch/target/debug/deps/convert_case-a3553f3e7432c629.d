@@ -1,0 +1,11 @@
+D:\University\Fourth year\Rust\VibeMatch\VibeMatch\target\debug\deps\libconvert_case-a3553f3e7432c629.rmeta: C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\lib.rs C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\case.rs C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\converter.rs C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\pattern.rs C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\segmentation.rs
+
+D:\University\Fourth year\Rust\VibeMatch\VibeMatch\target\debug\deps\libconvert_case-a3553f3e7432c629.rlib: C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\lib.rs C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\case.rs C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\converter.rs C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\pattern.rs C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\segmentation.rs
+
+D:\University\Fourth year\Rust\VibeMatch\VibeMatch\target\debug\deps\convert_case-a3553f3e7432c629.d: C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\lib.rs C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\case.rs C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\converter.rs C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\pattern.rs C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\segmentation.rs
+
+C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\lib.rs:
+C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\case.rs:
+C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\converter.rs:
+C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\pattern.rs:
+C:\Users\pamiv\.cargo\registry\src\index.crates.io-6f17d22bba15001f\convert_case-0.6.0\src\segmentation.rs:

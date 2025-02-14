@@ -325,18 +325,25 @@ async fn get_tracks(genre: Genre) -> Result<Vec<Track>, ErrorCode>
 async fn write_tracks(genres: Vec<Genre>) -> Result<(), io::Error>
 {   
     println!("Inside write_tracks()");
-    let mut file = OpenOptions::new().write(true).create(true).truncate(true).open("songs.json")?;
+    let mut file = OpenOptions::new().write(true).create(true).truncate(true).open("tracks.json")?;
+    let open_brace = file.write_all(b"[");
     for genre in genres.iter() {
         println!("{}", genre.name);
         let tracks: Vec<Track> = get_tracks(genre.clone()).await.unwrap();
-        let core_features:Vec<(String, Vec<Artist>)> = tracks.iter().map(|x| (x.name.clone(), x.artists.clone())).collect();
+        let core_features:Vec<(String, String)> = tracks.iter().map(|x| (x.name.clone(), x.artists[0].name.clone())).collect();
         let json: String = serde_json::to_string(&core_features).unwrap();
         let result: Result<(), std::io::Error> = file.write_all(json.as_bytes());
         match result {
-            Ok(_) => {},
+            Ok(_) => {
+                let newline_result = file.write_all(b",\n");
+                if let Err(err) = newline_result {
+                    return Err(err);
+                }
+            },
             Err(err) => return Err(err),
         }
     }
+    let close_brace = file.write_all(b"]");
     return Ok(());
 }
 #[tokio::main]
